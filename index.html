@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="scoreboard">
+
+            <div class="timer-section">
+
+                    <h3 id="t-title">TIMER</h3>
+                    <div id="time">
+                        <p class="numbers" id="t-hour">00</p>
+                        <p id="t-collon">:</p>
+                        <p class="numbers" id="t-minutes">00</p>
+                        <p id="t-collon">:</p>
+                        <p class="numbers" id="t-seconds">00</p>
+                    </div>
+
+            </div>
+
+            <div class="counter-section">
+
+                <div class="home">
+                    <h3 id="title-h">HOME</h3>
+                    <div class="h-scoreboard">
+                        <div class="home-points">
+                            <button class="sum-points onePoint" onclick="plusOneHome()">+1</button>
+                            <button class="sum-points twoPoints" onclick="plusTwoHome()">+2</button>
+                            <button class="sum-points threePoints" onclick="plusThreeHome()">+3</button>
+                        </div>
+                        <div class="home-c">
+                            <p class="numbers points" id="home_score">0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="period">
+                    <h4 id="title-p">PERIOD</h4>
+                    <div class="p-scoreboard">
+                        <div class="period-c">
+                            <p class="numbers" id="number_of_period">0</p>
+                        </div>
+                        <div>
+                            <button class="sum-period onePoint" onclick="plusOnePeriod()">+1</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guest">
+                    <h3 id="title-g">GUEST</h3>
+                    <div class="g-scoreboard">
+                        <div class="guest-c">
+                            <p class="numbers points" id="guest_score">0</p>
+                        </div>
+                        <div class="guest-points">
+                            <button class="sum-points onePoint" onclick="plusOneGuest()">+1</button>
+                            <button class="sum-points twoPoints" onclick="plusTwoGuest()">+2</button>
+                            <button class="sum-points threePoints" onclick="plusThreeGuest()">+3</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <button id="new-game" onclick="initialConditions()">NEW GAME</button>
+                <button id="pause" onclick="pauseTimer()()">PAUSE</button>
+                <button id="continue" onclick="continueTimer()">CONTINUE</button>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

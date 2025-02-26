@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #243119;
+    color: #FEFEE3;
+    font-family: "Viga", arial, sans-serif;
+    font-style: normal;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+h3 {
+    font-size: 115px;
+    font-size: 115px;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.numbers {
+    background-color: #080001;
+    border-radius: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#t-title {
+    margin: 0px;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    gap: 15px;
+}
+
+#t-hour, #t-minutes, #t-seconds {
+    padding: 27px 53px;
+    color: #F94F6D;
+    margin-bottom: 0px;
+}
+
+#t-collon {
+    margin-bottom: 0px;
+}
+
+.counter-section {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 41px;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 30px;
+    background-color: #243119;
+    border: 4px solid #FEFEE3;
+    border-radius: 12px;
+    padding: 15px 15px;
+    color: #FEFEE3;
+    margin-top: 9px;
+}
+
+#title-h {
+    margin: 0px 0px 0px 100px;
+}
+
+#title-g {
+    margin: 0px 100px 0px 0px;
+}
+
+.h-scoreboard, .g-scoreboard {
+    margin-top: 0px;
+    display: flex;
+    gap: 30px;
+}
+
+.home-points, .guest-points {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.points {
+    margin-top: 0px;
+    width: 390px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 158px;
+    color: #F5B700;
+}
+
+#title-p {
+    margin: 10px 0px;
+}
+
+.period {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.period-c p{
+    font-size: 60px;
+    padding: 30px 30px;
+    margin-top: 20px;
+}
+
+.sum-period {
+    font-size: 25px;
+    padding: 12px 12px;
+    margin-top: 10px;
+}
+
+#new-game, #continue, #pause {
+    padding: 15px 39px;
+    margin: 10px;
+}
