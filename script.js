@@ -8,6 +8,7 @@ let seconds = 0;
 let timer = null; // Almacena el temporizador
 let isPaused = false; // Estado de pausa
 
+
 let homeScore = document.getElementById("home_score");
 let guestScore = document.getElementById("guest_score");
 let numberPeriod = document.getElementById("number_of_period")
